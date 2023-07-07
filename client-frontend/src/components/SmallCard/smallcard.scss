@@ -1,0 +1,52 @@
+.card2 {
+    width: 20rem;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    margin-top: 12px;
+    position: relative;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .card-img-top1 {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-text1 {
+    margin-bottom: 1rem;
+    padding: 10px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background: #00000094;
+    bottom: -15px;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    
+  }
+
+  .card-text p{
+    position: absolute;
+    bottom: 30px;
+  }
+  
+
+
+
+
+//   .cardwidth{
+//     margin-bottom: 0px;
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//   }
+
+//   ._cards{
+//     margin-bottom: 20px;
+//     margin-left: -4px;
+//   }

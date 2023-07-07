@@ -1,0 +1,64 @@
+.Article-page{
+    flex : 9;
+     margin-top: 0px;
+     padding: 60px;
+   
+    
+ }
+ .Article-title{
+ color: black;
+ font-size: 45px;
+ font-weight: bold;
+ 
+ }
+
+ .Article-img{
+     width: 100%;
+     border-radius: 10px;
+     object-fit: cover;
+ }
+
+ .Author{
+    text-align: center;
+ }
+
+ .Logo{
+     color: red;
+     margin-left: 10px;
+ }
+
+
+.Logo.data_section {
+    margin: 12px 0px;
+    span {
+        color: #aaa;
+    }
+}
+.Sidebar-container {
+    margin-top: 79px;
+    margin-left: 33px;
+
+}
+
+Link {
+    color: '#777'
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media screen and (max-width: 640px) {
+    .left_side.col-8 {
+        width: 100%;
+        display: contents;
+    }
+    .right_side.col-4 {
+        width: 100%;
+    }
+    .Sidebar-container {
+        margin-top: 25px;
+        margin-left: -12px;
+    }
+}

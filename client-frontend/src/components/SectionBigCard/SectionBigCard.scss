@@ -1,0 +1,23 @@
+
+.SectionBigCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SectionBigCard-imgWrapper {
+  width: 468px;
+  height: 240px;
+}
+
+.SectionBigCard-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.SectionBigCard-info {
+ 
+  border-bottom: 1px solid #ddd;
+}

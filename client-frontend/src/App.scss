@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+nav{
+    width: 100%;
+}
+
+.bg-img {
+    background-image: url('./assets/Cricket.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 42rem;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  
+
+.line {
+    border-bottom: 2px solid grey;
+   
+}
+
+.line2{
+    border-bottom: 2px solid grey;
+    margin: 60px 0;
+}
+
+.tnr {
+    font-family: 'Times New Roman';
+}
+
+.btnclr{
+    background: #47ABE4;
+}
+
+.img-foot{
+    background-image: url('./assets/txtBack.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 17rem;
+}
+
+.roman{
+    font-family: 'Times New Roman';
+}
+
+.poppins{
+    font-family: 'Poppins';
+}
+
+
+
+
+
+@media(min-width:650px) and (max-width:770px) {
+
+    .bg-img{
+        background-size: cover;
+        height: 26rem;
+    }
+
+    
+}
+
+@media(max-width:650px){
+    .bg-img{
+        height: 46vh;
+        background-size: cover;
+    }
+
+   
+
+    .ease-in-out {
+        transition-timing-function: ease-in-out;
+      }
+}
+

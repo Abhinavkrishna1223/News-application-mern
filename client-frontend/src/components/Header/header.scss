@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+}
+
+// nav{
+//     background-color: black;
+// }
+
+// .container{
+//     width: 100%;
+//     max-width: 1512px;
+//     margin: 0 auto;
+//     margin-bottom: 100px;
+// }
+.nav_main {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.left {
+
+    display: flex;
+    justify-content: center;
+}
+
+.left>img {
+    width: 3vmax;
+
+}
+
+.mid {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mid>a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.mid>a:hover {
+    color: #e9ecef;
+
+}
+
+.search {
+    align-items: right;
+    padding-left: 5px;
+    padding-right: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.search-box {
+    padding: 20px;
+    color: rgb(176, 168, 168);
+    padding-left: 5px;
+    border-radius: 5px;
+    position: relative;
+    height: 25px;
+    width: 100%;
+    max-width: 195px;
+    background-color: white
+}
+
+.search-box input {
+    // color: rgb(176, 168, 168);
+    right: 2px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 83%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border-radius: 10px;
+}
+
+.me-auto.navbar-nav a {
+    font-size: 19px;
+    color: #fff;
+
+    &:hover {
+        color: #d9368b;
+    }
+}
+
+.search_btn {
+     
+    border-color: #3782bf !important;
+    color: #3782bf !important;
+
+    &:hover {
+        background-color: #3782bf !important;
+        color: #fff !important;
+    }
+}
+
+nav.navbar.navbar-expand.navbar-light.bg-dark {
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+a.nav-link {
+    margin-right: 13px;
+    margin-left: 15px;
+}
+.dest_view{
+    display: flex;
+}
+
+.mob_view {
+    display: none;
+}
+.mob_icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .dest_view {
+        display: none !important;
+    }
+
+    .mob_view {
+        display: block !important;
+        background: #212529;
+        position: absolute;
+        right: 0;
+        top: 82px;
+        width: 100%;
+        padding-bottom: 13px;
+
+        .navbar-nav {
+            display: block;
+            padding: 10px;
+        }
+
+        form {
+            display: flex;
+            padding: 12px;
+        }
+    }
+    .mob_icon{
+        display: block;
+    }
+}

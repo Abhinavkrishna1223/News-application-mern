@@ -1,0 +1,30 @@
+.SidebarCard {
+    display: flex;
+    margin: 12px 0px;
+  }
+  
+  .SidebarCard-img {
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 3px;
+  }
+  
+  .SidebarCard-text {
+    padding: 0px 13px;
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+  }
+
+  .side_date_section{
+    margin: 0px 13px;
+    color: rgb(0 0 0 / 55%);;
+  }
+
+  @media(max-width:1440px){
+
+    .SidebarCard-text{
+      font-size: 15px;
+    }
+  }

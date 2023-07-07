@@ -1,0 +1,22 @@
+
+  
+  .SectionSmallCardSection-img{
+    object-fit: cover;
+   
+    height: 101px;
+
+    border-radius: 10px;
+  }
+  
+  .SectionSmallCardSection-text{
+    // padding: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-overflow: hidden;
+   font-size: 16px;
+
+    
+  }
+  .section_small:nth-child(even) {
+    margin-top: 24px;
+}

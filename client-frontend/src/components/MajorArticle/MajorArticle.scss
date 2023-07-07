@@ -1,0 +1,33 @@
+
+
+._row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  
+}
+
+._wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+._parentholder{
+  margin-top:50px ;
+  margin-left: 120px;
+  margin-right: 30px;
+}
+
+.custom-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.majorcard .card1 img{
+  height: 411px;
+  border-radius: 5px;
+}
